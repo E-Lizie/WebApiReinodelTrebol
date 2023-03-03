@@ -21,7 +21,7 @@ namespace WebApiReinodelTrebol.Controllers
             _context = context;
         }
 
-        // GET: api/Requests, se consume asi
+        // GET: api/Requests, esto es para subir
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Request>>> GetRequest()
         {
